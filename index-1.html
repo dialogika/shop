@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Shop - Pelatihan Public Speaking</title>
+  <meta name="description" content="" />
+
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet preload" as="style" href="assets/css/preload.min.css" />
+  <link rel="stylesheet preload" as="style" href="assets/css/icomoon.css" />
+
+  <!-- VueJS -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
+
+  <!-- css here -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
+  <link rel="stylesheet" href="assets/css/splide.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/nouislider.css" />
+  <link rel="stylesheet" href="assets/css/datepicker.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/flaticon_kleaso.css" />
+  <link rel="stylesheet" href="assets/css/circularProgressBar.css" />
+  <link rel="stylesheet" href="assets/css/spacing.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="assets/css/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/epora/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/vendor/epora/css/font-awesome-pro.css" />
+
+  <!-- css here -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/shop.css" />
+  <link rel="stylesheet" href="assets/css/new.css" />
+</head>
+
+<body>
+  <div id="preloader"></div>
+  <main-header></main-header>
+
+  <!-- Hero section start -->
+  <section class="hero">
+    <div class="container d-xl-flex align-items-start">
+      <div class="hero_about col-xl-6">
+        <div class="hero_header">
+          <h1 class="hero_header-title">Check Our New Books</h1>
+          <p class="hero_header-text">
+            Temukan buku-buku terbaik untuk mengasah kemampuan public speaking
+            Anda di Dialogika. Kami siap membantu Anda menjadi seorang
+            pembicara yang percaya diri, menginspirasi, dan mempengaruhi
+            dunia. Mulailah perjalanan Anda sekarang!
+          </p>
+          <a class="hero_header-btn btn" href="#tab1">Shop Now</a>
+        </div>
+        <div class="hero_contacts">
+          <p class="hero_contacts-text">
+            Our support team is available 24/7 to resolve any product issues
+          </p>
+          <span class="hero_contacts-data d-flex flex-column flex-sm-row align-items-center">
+            <span class="icon d-flex align-items-center justify-content-center">
+              <i class="icon-call"></i>
+            </span>
+            <span class="d-flex flex-column">
+              <span>Phone number</span>
+              <a class="link" href="tel:+1234567890">+62 851-6299-2597</a>
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="hero_promo col-xl-6">
+        <div class="hero_promo-underlay"></div>
+        <div class="hero_promo-underlay--highlight"></div>
+        <div class="hero_slider swiper">
+          <div class="swiper-wrapper">
+            <div
+              class="hero_slider-slide d-flex flex-column flex-md-row justify-content-between justify-content-md-start align-items-md-center swiper-slide">
+              <div class="hero_slider-slide_media">
+                <picture>
+                  <source data-srcset="img/placeholder.jpg" srcset="
+                        https://i.pinimg.com/originals/a8/b9/ff/a8b9ff74ed0f3efd97e09a7a0447f892.jpg
+                      " type="image/webp" />
+                  <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
+                </picture>
+              </div>
+              <div class="hero_slider-slide_main">
+                <h2 class="title">Judul Buku 1</h2>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing illum
+                  vero itaque adipisci ipsa sit praesentium ullam.
+                </p>
+                <ul class="list">
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Mengatasi Grogi
+                  </li>
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Lancar Public Speaking
+                  </li>
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Menjadi Ganteng
+                  </li>
+                </ul>
+                <a class="btn--underline" href="#">About Product</a>
+              </div>
+            </div>
+            <div
+              class="hero_slider-slide d-flex flex-column flex-md-row justify-content-between justify-content-md-start align-items-md-center swiper-slide">
+              <div class="hero_slider-slide_media">
+                <picture>
+                  <source data-srcset="img/placeholder.jpg" srcset="
+                        https://images-na.ssl-images-amazon.com/images/I/7167iiDUeAL.jpg
+                      " type="image/webp" />
+                  <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
+                </picture>
+              </div>
+              <div class="hero_slider-slide_main">
+                <h2 class="title">Judul Buku 2</h2>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing illum
+                  vero itaque adipisci ipsa sit praesentium ullam.
+                </p>
+                <ul class="list">
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Menjadi Ganteng
+                  </li>
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Mengatasi Grogi
+                  </li>
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Lancar Public Speaking
+                  </li>
+                </ul>
+                <a class="btn--underline" href="#">About Product</a>
+              </div>
+            </div>
+            <div
+              class="hero_slider-slide d-flex flex-column flex-md-row justify-content-between justify-content-md-start align-items-md-center swiper-slide">
+              <div class="hero_slider-slide_media">
+                <picture>
+                  <source data-srcset="img/placeholder.jpg" srcset="
+                        https://images-na.ssl-images-amazon.com/images/I/81WcnNQ-TBL.jpg
+                      " type="image/webp" />
+                  <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
+                </picture>
+              </div>
+              <div class="hero_slider-slide_main">
+                <h2 class="title">Judul Buku 3</h2>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing illum
+                  vero itaque adipisci ipsa sit praesentium ullam.
+                </p>
+                <ul class="list">
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Lancar Public Speaking
+                  </li>
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Bisa Lompat Tinggi
+                  </li>
+                  <li class="list-item d-flex align-items-center justify-content-center justify-content-sm-start">
+                    <span class="icon d-flex align-items-center justify-content-center">
+                      <i class="icon-check"></i>
+                    </span>
+                    Menjadi Ganteng
+                  </li>
+                </ul>
+                <a class="btn--underline" href="#">About Product</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-pagination swiper-pagination d-sm-flex flex-column"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero section end -->
+
+  <!-- FEATURE AREA START ( Feature - 3) -->
+  <div class="ltn__feature-area mt-100 mt--65">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div
+            class="ltn__feature-item-box-wrap ltn__feature-item-box-wrap-2 ltn__border section-bg-6 position-relative">
+            <div class="ltn__feature-item ltn__feature-item-8">
+              <div class="ltn__feature-icon">
+                <img src="assets/img/icons/svg/8-trolley.svg" alt="#">
+              </div>
+              <div class="ltn__feature-info">
+                <h4>Free shipping</h4>
+                <p>Untuk pesanan diatas Rp.300.000</p>
+              </div>
+            </div>
+            <div class="ltn__feature-item ltn__feature-item-8">
+              <div class="ltn__feature-icon">
+                <img src="assets/img/icons/svg/9-money.svg" alt="#">
+              </div>
+              <div class="ltn__feature-info">
+                <h4>15 days returns</h4>
+                <p>Garansi uang kembali</p>
+              </div>
+            </div>
+            <div class="ltn__feature-item ltn__feature-item-8">
+              <div class="ltn__feature-icon">
+                <img src="assets/img/icons/svg/10-credit-card.svg" alt="#">
+              </div>
+              <div class="ltn__feature-info">
+                <h4>Secure checkout</h4>
+                <p>Transfer aman melalui Bank</p>
+              </div>
+            </div>
+            <div class="ltn__feature-item ltn__feature-item-8">
+              <div class="ltn__feature-icon">
+                <img src="assets/img/icons/svg/11-gift-card.svg" alt="#">
+              </div>
+              <div class="ltn__feature-info">
+                <h4>Offer & gift here</h4>
+                <p>Untuk semua pesanan buku</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FEATURE AREA END -->
+
+  <!-- Start of shop product section
+		============================================= -->
+  <section id="shop-product" class="shop-product-section">
+    <div class="container">
+      <div class="product-item">
+        <div id="app">
+          <div class="row">
+            <!-- PRODUCT AREA START -->
+            <div class="ltn__product-area ltn__product-gutter  pt-65 pb-40">
+              <div id="app" class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="section-title-area text-center">
+                      <h1 class="section-title section-title-border">Katalog Buku</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <!-- ltn__product-item -->
+                  <div class="col-lg-3 col-md-4 col-sm-6 col-6" v-for="book in books" :key="book.id">
+                    <div class="ltn__product-item text-center" :id="book.popup">
+                      <div class="product-img">
+                        <!-- @click="openDetails(book.popup)" -->
+                        <a data-bs-toggle="modal" :data-bs-target="'#bookpopup-' + book.id">
+                          <img :src="book.gambar" alt=""></a>
+                        <div class="product-badge">
+                          <ul>
+                            <li class="badge-1">Hot</li>
+                          </ul>
+                        </div>
+                        <div class="product-hover-action product-hover-action-2">
+                          <ul>
+                            <li>
+                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
+                                <i class="icon-magnifier"></i>
+                              </a>
+                            </li>
+                            <li class="add-to-cart">
+                              <a href="#" title="Add to Cart" data-bs-toggle="modal"
+                                data-bs-target="#add_to_cart_modal">
+                                <span class="cart-text d-none d-xl-block" @click="addToCart(book)">Add to Cart</span>
+                                <span class="d-block d-xl-none"><i class="icon-handbag"></i></span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" title="Quick View" data-bs-toggle="modal" data-bs-target="#quick_view_modal">
+                                <i class="icon-shuffle"></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="product-info">
+                        <h2 class="product-title"><a href="">{{ book.judul }}</a></h2>
+                        <div class="product-price">
+                          <span>{{
+                            formatCurrency(book.harga -
+                            book.diskon) }}</span>
+                          <del>{{
+                            formatCurrency(book.diskon)
+                            }}</del>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- PRODUCT SLIDER AREA END -->
+
+            <!-- Modal (dinamis untuk setiap buku) -->
+            <div v-for="book in books" :key="book.id">
+              <div class="modal fade" :id="'bookpopup-' + book.id" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">{{ book.judul }}</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img :src="book.gambar" alt="" height="100px" width="100px">
+                      <p>{{ book.deskripsi }}</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary"  @click="addToCart(book)" data-bs-dismiss="modal">Tambah ke Cart</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Utilize Cart Menu Start -->
+            <div id="ltn__utilize-cart-menu" class="ltn__utilize ltn__utilize-cart-menu">
+              <div class="ltn__utilize-menu-inner ltn__scrollbar">
+                <div class="ltn__utilize-menu-head">
+                  <span class="ltn__utilize-menu-title">Cart</span>
+                  <button class="ltn__utilize-close">
+                    <i class="fa fa-times" aria-hidden="true" style="color: black; font-size: 20px"></i>
+                  </button>
+                </div>
+                <div class="mini-cart-product-area ltn__scrollbar">
+                  <div v-for="item in cartItems" :key="item.id" class="mini-cart-item clearfix">
+                    <div class="mini-cart-img">
+                      <a><img :src="getProductImage(item)" alt="Product Image" /></a>
+                      <span @click="removeFromCart(item.id)" id="remove" class="mini-cart-item-delete"><i
+                          class="fa-light fa-trash"></i></span>
+                    </div>
+                    <div class="mini-cart-info">
+                      <h6><a>{{ item.judul }}</a></h6>
+                      <span class="mini-cart-quantity">x{{ item.quantity }} = {{
+                        formatCurrency((item.harga - item.diskon) *
+                        item.quantity) }}</span>
+                    </div>
+                    <div class="valuenum">
+                      <button @click="decrement(item)">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                      </button>
+                      <input class="qt" type="number" id="inputNumber" v-model.number="item.quantity" />
+                      <button @click="increment(item)">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mini-cart-footer">
+                  <div class="mini-cart-sub-total">
+                    <h5>
+                      Subtotal:
+                      <span>{{ formatCurrency(calculateOverallTotal())
+                        }}</span>
+                    </h5>
+                  </div>
+                  <div class="btn-wrapper">
+                    <!-- <a href="#" class="theme-btn-1 btns btn-effect-1">Close</a> -->
+                    <a onclick="checkout()" class="theme-btn-2 btns btn-effect-2">Checkout</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Utilize Cart Menu End -->
+            <div class="ltn__utilize-overlay"></div>
+
+            <!-- Popup Keranjang -->
+            <!-- <div v-if="showPopup" class="popup">
+                    <div class="popup-content">
+                      <h3>Keranjang</h3>
+                      <button @click="closePopup" class="close-btn">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                      </button>
+                      <ul>
+                        <li v-for="item in cartItems" :key="item.id">
+                          <img
+                            :src="getProductImage(item)"
+                            alt="Product Image"
+                            style="width: 50px"
+                          /> -->
+            <!--  tambahkan script ini jika ingin mengambil gambar lokal assets/img/product/' + -->
+
+            <!-- {{ item.judul }} <br /><small>X </small>
+                          {{ item.quantity }} = {{ formatCurrency(item.harga *
+                          item.quantity) }}
+                          <button @click="removeFromCart(item.id)" id="remove">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                          </button>
+                        </li>
+                      </ul>
+
+                      <div class="checkout">
+                        <p
+                          style="
+                            font-weight: bold;
+                            margin-right: 10px;
+                            margin-top: 15px;
+                          "
+                        >
+                          Total : {{ formatCurrency(calculateOverallTotal()) }}
+                        </p>
+                        <button onclick="checkout()" class="tp-btn">
+                          Checkout
+                        </button>
+                      </div>
+                    </div>
+                  </div> -->
+            <div class="checkout-form" id="checkout">
+              <form id="checkoutForm" @submit="submitCheckout">
+                <h3>Form Checkout</h3>
+                <div onclick="hidePopup()" id="checkoutclose" class="close-btn">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <br />
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" v-model="nama" required /><br />
+                <label for="email">E-Mail:</label>
+                <input type="text" id="email" v-model="email" required /><br />
+                <label for="nomorHp">Nomor HP:</label>
+                <input type="text" id="nomorHp" v-model="nomorHp" required /><br />
+
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" v-model="alamat" required></textarea><br />
+
+                <h5>Detail Pembelian</h5>
+                <ul>
+                  <li v-for="item in cartItems" :key="item.id">
+                    {{ item.judul }} x {{ item.quantity }}
+                    <br />
+                    =
+                    <small><strike>{{ formatCurrency((item.harga) * item.quantity)
+                        }}</strike></small>
+                    {{ formatCurrency((item.harga - item.diskon) *
+                    item.quantity) }}
+                  </li>
+                </ul>
+                <div class="footer-form">
+                  <h5>
+                    Total: {{ formatCurrency(calculateOverallTotal()) }}
+                  </h5>
+
+                  <button type="submit" id="checkoutsubmit" class="tp-btn">
+                    Checkout
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          books: [],
+          showPopup: false,
+          cartItems: [],
+          nama: "",
+          nomorHp: "",
+          alamat: "",
+          buktiTransfer: null,
+        };
+      },
+      mounted() {
+        // Mengambil data JSON menggunakan Axios atau metode lainnya
+        axios
+          .get("assets/js/data.json")
+          .then((response) => {
+            this.books = response.data;
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      },
+
+      methods: {
+        formatCurrency(harga) {
+          try {
+            const formattedharga = new Intl.NumberFormat("id-ID", {
+              style: "currency",
+              currency: "IDR",
+            }).format(harga);
+            return formattedharga;
+          } catch (error) {
+            console.error(error);
+            return "Error";
+          }
+        },
+        addToCart(book) {
+          const existingItem = this.cartItems.find(
+            (item) => item.id === book.id
+          );
+          if (existingItem) {
+            existingItem.quantity += 1;
+          } else {
+            const cartItem = {
+              id: book.id,
+              gambar: book.gambar,
+              judul: book.judul,
+              harga: book.harga,
+              diskon: book.diskon,
+              quantity: 1,
+            };
+            this.cartItems.push(cartItem);
+          }
+          this.saveCartToCookie();
+
+          alert("Buku telah ditambahkan ke keranjang :)");
+        },
+        getProductImage(item) {
+          // Assuming you have a `gambar` property in the `item` object that stores the image path
+          // If the image is stored locally in the assets/img/product/ folder, you can use the following logic
+          return `${item.gambar}`;
+        },
+        removeFromCart(itemId) {
+          this.cartItems = this.cartItems.filter(
+            (item) => item.id !== itemId
+          );
+          this.saveCartToCookie();
+        },
+
+        setCookie(name, value, days) {
+          const expires = new Date();
+          expires.setDate(expires.getDate() + days);
+          const cookieValue =
+            encodeURIComponent(value) +
+            (days === null ? "" : `; expires=${expires.toUTCString()}`);
+          document.cookie = `${name}=${cookieValue}; path=/`;
+        },
+        getCookie(name) {
+          const nameEQ = name + "=";
+          const cookies = document.cookie.split(";");
+
+          for (let i = 0; i < cookies.length; i++) {
+            let cookie = cookies[i];
+            while (cookie.charAt(0) === " ") {
+              cookie = cookie.substring(1);
+            }
+            if (cookie.indexOf(nameEQ) === 0) {
+              return cookie.substring(nameEQ.length, cookie.length);
+            }
+          }
+          return null;
+        },
+        saveCartToCookie() {
+          const cartData = JSON.stringify(this.cartItems);
+          this.setCookie("cart", cartData, 7);
+        },
+        getCartItems() {
+          const cartData = this.getCookie("cart");
+          if (cartData) {
+            try {
+              return JSON.parse(decodeURIComponent(cartData));
+            } catch (error) {
+              console.error("Error parsing cart data:", error);
+              return [];
+            }
+          }
+          return [];
+        },
+        openPopup() {
+          this.showPopup = true;
+          this.cartItems = this.getCartItems();
+        },
+        closePopup() {
+          this.showPopup = false;
+        },
+
+        // Flipping Book
+        openDetails(id) {
+          document.getElementById(id).style.display = "flex";
+        },
+        closeDetails(id) {
+          // close popup
+          document.getElementById(id).style.display = "none";
+        },
+        // Flipping Book
+
+        // plus minus
+        increment(book) {
+          book.quantity++;
+        },
+        decrement(book) {
+          if (book.quantity > 0) {
+            book.quantity--;
+          }
+        },
+        // end plus minus
+
+        calculateTotal(book) {
+          let total = 0;
+          for (const item of this.cartItems) {
+            if (item.judul === book.judul) {
+              total += (item.harga - item.diskon) * item.quantity;
+            }
+          }
+          return total;
+        },
+        calculateOverallTotal() {
+          let overallTotal = 0;
+
+          for (const book of this.groupedBooks) {
+            overallTotal += this.calculateTotal(book);
+          }
+
+          return overallTotal;
+        },
+        submitCheckout(event) {
+          event.preventDefault();
+
+          const message = `Dialogika Shop - Checkout
+
+      Nama: ${this.nama}
+      E-Mail: ${this.email}
+      Nomor HP: ${this.nomorHp}
+      Alamat: ${this.alamat}
+
+      Detail Pembelian:
+      ${this.cartItems
+              .map(
+                (item) =>
+                  `${item.judul} x ${item.quantity} =  ~${this.formatCurrency(
+                    item.harga * item.quantity
+                  )}~ ${this.formatCurrency(
+                    (item.harga - item.diskon) * item.quantity
+                  )}`
+              )
+              .join("\n")}
+
+      Total: ${this.formatCurrency(this.calculateOverallTotal())}
+
+      Mohon dibantu untuk melakukan pembayaran.`;
+
+          const formData = new FormData();
+          formData.append("message", message);
+
+          const whatsappLink = `https://wa.me/6285162992597?text=${encodeURIComponent(
+            message
+          )}`;
+          window.open(whatsappLink, "_blank");
+        },
+      },
+      computed: {
+        bookQuantity: {
+          get() {
+            return this.book.quantity;
+          },
+          set(value) {
+            this.book.quantity = Number(value);
+          },
+        },
+        groupedBooks() {
+          const groupedBooks = {};
+
+          for (const item of this.cartItems) {
+            if (!groupedBooks[item.judul]) {
+              groupedBooks[item.judul] = item;
+            } else {
+              groupedBooks[item.judul].quantity += item.quantity;
+            }
+          }
+
+          return Object.values(groupedBooks);
+        },
+      },
+    }).mount("#app");
+  </script>
+  <script></script>
+
+
+  <!-- Footer -->
+  <main-footer></main-footer>
+  <!-- End Footer -->
+
+  <!-- js here -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="assets/js/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jarallax.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/jquery.meanmenu.js"></script>
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/jquery-ui.js"></script>
+  <script src="assets/js/gmap3.min.js"></script>
+  <script src="assets/js/switch.js"></script>
+  <script src="http://maps.google.com/maps/api/js?key=AIzaSyC61_QVqt9LAhwFdlQmsNwi5aUJy9B2SyA"></script>
+
+  <!-- js here -->
+  <script src="assets/js/shop.js"></script>
+  <script src="assets/js/script.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- ICONS -->
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/component/headerfooter.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/index.min.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script>
+    $(".mobile-nav-toggle").on("click", function (e) {
+      $("#sidebar-mobile").offcanvas("show");
+    });
+  </script>
+</body>
+
+</html>
